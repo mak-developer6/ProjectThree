@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: 100;
+	font-family: open sans;
+}
+
+footer{
+	background-color: #ff6b6b;
+	padding:  50px 0;
+  }
+
+  footer h2 {
+    color: #ffffff;
+    font-size: 27px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+  footer ul{
+  	list-style: none;
+  	padding-left:  0px;
+  	margin-bottom:  0px;
+  }
+
+  footer ul li{ 
+     line-height: 30px;
+     font-size:  16px;
+     color:  #ffffff;
+     text-decoration: none;
+     text-transform: capitalize;
+
+   }
+   footer ul li a{
+   	color:  #ffffff;
+   	text-decoration: none;
+   }
+
+   footer h1 {
+    color: #ffffff;
+    font-size: 57px;
+    font-weight: 700;
+}
+
+footer h1 span{
+	color:  #202020;
+}
+
+footer.last-foot{
+	padding:  15px 0;
+	background-color: #191919;
+}
+
+footer.last-foot p{
+	color:  #ffffff;
+}
+
+footer.last-foot ul{
+	list-style:  none;
+	padding-left:  0px;
+	margin-bottom:  0px;
+}
+
+
+footer.last-foot ul li a {
+    font-size: 14px;
+    
+    
+}
+footer.last-foot ul li {
+    display: inline-block;
+    float: right;
+    margin-left: 14px;
+    border: 1px solid #383a38;
+    width: 44px;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 100%;
+    border: 1px solid #636563;
+    /* height: 44px; */
+    box-shadow: 0px 0px 11px red;
+}
+
+footer.last-foot p {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+footer.last-foot p span{
+	color:  darkorange;
+}
+
+
+.heading h1, .services h1, .popular h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.heading h1 span, .services h1 span, .popular h1 span{
+  color:  #ff6b6b;
+}
+
+
+.land-sites img{
+  width:  100%;
+
+}
+.land-sites h2{
+  font-size:  30px;
+  font-weight: 500;
+  color:  #202020;
+  margin-bottom:  19px;
+  line-height: 41px;
+  text-transform: capitalize;
+  padding-top:  29px;
+
+}
+
+.land-sites p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #999;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    border-bottom:  2px solid #999;
+
+    margin-bottom: 22px;
+    padding-bottom: 26px;
+}
+.land-sites p:last-child{
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom:  0px;
+}
+.land-sites{
+  margin:  80px 0px;
+}
+
+
+
+section.services {
+    /* background-color: aqua; */
+    background-image:  url('../img/bg1.jpg');
+    background-attachment: fixed;
+    padding: 90px 0;
+    margin-bottom: 75px;
+}
+
+.services h1, .popular h1{
+  margin-bottom:  15px;
+}
+
+.services h5, .popular h5 {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.9px;
+    margin-bottom:  68px;
+}
+
+
+.services .inner-services{
+  padding-top:  30px;
+  padding-bottom:  52px;
+  padding-right: 60px;
+  padding-left:  40px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.services .inner-services span svg{
+   color: #ff6b6b;
+   font-size: 24px;
+
+}
+.services .inner-services h3{
+  font-size:  24px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  color:  #202020;
+  margin-top: 25px;
+
+}
+.services .inner-services p{
+   color:  #999;
+   line-height: 28px;
+   margin-bottom: 63px;
+   text-transform: capitalize;
+   font-size: 16px;
+   text-align: left;
+
+}
+.services .inner-services a{
+   color:  #ff6b6b;
+   font-size: 14px;
+   text-transform: capitalize;
+   text-decoration: none;
+}
+
+
+.popular h5{
+  color: #999;
+}
+.popular img{
+  width:  100%;
+}
+
+.popular .short-intro{
+  position:  relative;
+}
+.popular .short-content{
+  /* background-color:  aqua; */
+  position:  absolute;
+  top:  36px;
+  left:  26px;
+}
+
+.popular .short-content h3{
+  font-size:  23px;
+  font-weight: 600;
+  color:  #ffffff;
+  margin-bottom: 7px;
+}
+.popular .short-content h4{
+  font-size:  15px;
+  font-weight: 400;
+  color:  #ffffff;
+}
+.popular{
+  margin-bottom: 90px;
+}
